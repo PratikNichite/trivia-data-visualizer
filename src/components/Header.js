@@ -20,7 +20,7 @@ const Header = ({ questions, categories, darkMode, setDarkMode }) => {
                 : 'bg-gray-200 hover:bg-gray-300 text-gray-700'
             }`}
           >
-            {darkMode ? '☀️' : '🌙'}
+            {darkMode ? '🌙' : '☀️'}
           </button>
         </div>
       </div>
